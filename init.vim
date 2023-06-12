@@ -1,3 +1,9 @@
+call plug#begin()
+    Plug 'dracula/vim'
+    Plug 'scrooloose/nerdtree'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
 set ignorecase              " case insensitive 
@@ -22,10 +28,4 @@ colorscheme dracula
 filetype plugin on
 filetype plugin indent on   "allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
-
-call plug#begin()
-    Plug 'dracula/vim'
-    Plug 'scrooloose/nerdtree'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-call plug#end()
 
