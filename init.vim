@@ -28,5 +28,3 @@ call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
-
-
